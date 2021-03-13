@@ -6,7 +6,7 @@ def validate():
 
     # Validating bust size
     while bust_val == '' or bust_val.isspace():
-        bust_val = input("Bust size is invalid! Enter numeric value: ")
+        bust_val = input("Bust size is invalid! Enter numeric value in inch: ")
 
     # Input Waist Size
     global waist_val
@@ -14,7 +14,7 @@ def validate():
 
     # Validating waist size
     while waist_val == '' or waist_val.isspace():
-        waist_val = input("Waist size is invalid! Enter numeric value: ")
+        waist_val = input("Waist size is invalid! Enter numeric value in inch: ")
 
     # Input Hip Size
     global hip_val
@@ -22,7 +22,7 @@ def validate():
 
     # Validating hip size
     while hip_val == '' or hip_val.isspace():
-        hip_val = input("Hip size is invalid! Enter numeric value: ")
+        hip_val = input("Hip size is invalid! Enter numeric value in inch: ")
 
     # Input High Hip Size
     global high_hip_val
@@ -30,7 +30,7 @@ def validate():
 
     # Validating high hip size
     while high_hip_val == '' or high_hip_val.isspace():
-        high_hip_val = input("High Hip size is invalid! Enter numeric value: ")
+        high_hip_val = input("High Hip size is invalid! Enter numeric value in inch: ")
 
 # function to define the body type based on conditions
 
@@ -53,7 +53,7 @@ def figure_it_out():
 
     # For Hourglass
 
-    if int(bust_val) - int(hip_val) <= 1 and int(hip_val) - int(bust_val)<= 3.5 and int(bust_val) - int(waist_val) >= 9 or int(hip_val) - int(waist_val) >= 10:
+    if int(bust_val) - int(hip_val) <= 1 and int(hip_val) - int(bust_val)<= 3.6 and int(bust_val) - int(waist_val) >= 9 or int(hip_val) - int(waist_val) >= 10:
         print("your body size match to Hourglass categary,These tipes are pattern suit on you:")
            # Narrow v nack, Dark top, Jackets, Tailor shirts,
 
