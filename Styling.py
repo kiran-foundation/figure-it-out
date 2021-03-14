@@ -79,7 +79,13 @@ def figure_it_out():
     # For Triangle
     if int(hip_val) - int(bust_val) >= 3 and int(hip_val) - int(waist_val) < 6:
         print("Your body size match to Tringle categary,"
-              "suitable style :# Wear bright scoop-neck and boat-neck tops. This will make your shoulders look wider")
+              "SUITABLE STYLE : Wear bright scoop-neck and boat-neck tops. This will make your shoulders look wider"
+              'Emphasise your shoulders and bust to balance your silhouette.'
+               'Accentuate your top half – wear bright colours and accessories, prints and mix your textures and volumes.'
+               'Tone down your lower half – keep things discrete with dark colours and neutrals.'
+               'Choose wide-legged, straight-cut and flared trousers and jeans.'
+               'Go for plunging necklines.'
+              ' Embrace A-line and princess cuts for skirts and dresses')
 
 
     # For Inverted triangle
@@ -92,7 +98,32 @@ def figure_it_out():
     # For Rectangle
     if int(hip_val) - int(bust_val) < 3 and int(bust_val) - int(hip_val) < 3 and int(bust_val) - int(waist_val) < 3 and int(hip_val) - int(waist_val) < 4:
         print("Your body size match to Rectangle body shape,"
-              "suitable syle :Tube tops and Polka dress")
+              'SUITABLE STYLE :Choose asymmetrical cuts to create curves.'
+              'Pick skirts and dresses that are cinched at the waist.'
+              'Opt for fitted, structured blazers and jackets.'
+              'Look for straight, wide-legged and flared trousers and jeans (go high-waisted if you want a slim fit')
+
+    # For Diamond
+    if int(waist_val)- int(bust_val) >= 1 and int(hip_val)-int(bust_val)< 2:
+        print('This body shape has a thicker waist circumference than the bust round or hip round.The stomach area may appear protruding.'
+              ' Some may call it an Apple when the upper body is slightly bigger than the hip.'
+              'SUITABLE STYLE : you should dress in such a way to hide your tummy by jackets, duppattas or dreping style dress'
+              )
+
+    #  FOR oval
+    if int(bust_val)-int(waist_val) <= 0 and int(bust_val)-int(hip_val)> 1:
+        print('Your waist is broader than your shoulders or hips.'
+               'You’re generally well-proportioned.'
+               'You have a fuller bust/upper body.'
+               'Your waist is undefined.'
+              'SUITABLE STYLE : Opt for silhouettes without structured waistlines to take focus away from the mid-section.'
+               'Choose bust-defining tops in dark colours and diagonal/vertical stripes.'
+               'Your Power Pieces:'
+               'Go for a V-neck or a round neck and peplum tops.'
+               'Pick high-waisted, slim fit and straight-leg trousers and jeans.'
+               'Opt for high-waisted, pencil and A-line skirts.'
+               'Choose imperial cut and strapless dresses.'
+               'Bring in under-bust belts.')
 
 
 figure_it_out()
