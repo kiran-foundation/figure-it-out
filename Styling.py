@@ -105,14 +105,16 @@ def figure_it_out():
 
     # For Diamond
     if int(waist_val)- int(bust_val) >= 1 and int(hip_val)-int(bust_val)< 2:
-        print('This body shape has a thicker waist circumference than the bust round or hip round.The stomach area may appear protruding.'
+        print("Your body size match to Diamond shape,"
+            'This body shape has a thicker waist circumference than the bust round or hip round.The stomach area may appear protruding.'
               ' Some may call it an Apple when the upper body is slightly bigger than the hip.'
               'SUITABLE STYLE : you should dress in such a way to hide your tummy by jackets, duppattas or dreping style dress'
               )
 
     #  FOR oval
     if int(bust_val)-int(waist_val) <= 0 and int(bust_val)-int(hip_val)> 1:
-        print('Your waist is broader than your shoulders or hips.'
+        print("Your body size match to OVAL body shape,"
+            'Your waist is broader than your shoulders or hips.'
                'You’re generally well-proportioned.'
                'You have a fuller bust/upper body.'
                'Your waist is undefined.'
