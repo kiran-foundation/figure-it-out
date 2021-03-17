@@ -42,7 +42,7 @@ def figure_it_out():
     hip_intval = int(hip_val)
     waist_intval = int(waist_val)
     high_hip_intval = int(high_hip_val)
-
+    print(type(bust_intval))
     # Printing entered values
     print("\nMeasurements are:\n")
     print(f"Bust Size is: {bust_intval}")
