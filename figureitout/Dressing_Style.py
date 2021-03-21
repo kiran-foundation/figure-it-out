@@ -59,7 +59,7 @@ def figure_it_out():
     print(f"Hip Size is: {hip_floatval}")
     print(f"High Hip Size is: {highhip_floatval}")
 
-    # For Hourglass
+'''   # For Hourglass
     if bust_floatval - hip_floatval <= 1 and hip_floatval - bust_floatval <= 3.6 and bust_floatval - waist_floatval >= 9 or hip_floatval - waist_floatval >= 10:
         print("Hello dear your body type belongs  HOURGLASS category")
         print("SUITABLE STYLE YOU LOOK BEST IN ::  Narrow v neck, Dark top, Jackets, Tailor shirts. For more info, "
@@ -147,7 +147,7 @@ def figure_it_out():
               "jeans. Opt for high-waisted, pencil and A-line skirts. Choose imperial cut and strapless dresses. "
               "Bring in under-bust belts. For more info, Click below link:")
         print("https://effortlessstyleservices.com/how-to-dress-for-an-oval-body-shape/")
-        repeat()
+        repeat()'''
 
 
 # repeat() asks user whether to continue or not
@@ -160,3 +160,4 @@ def repeat():
 
 
 figure_it_out()
+
