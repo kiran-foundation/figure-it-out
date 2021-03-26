@@ -7,15 +7,17 @@ body_type_dict = {'hourglasse': 'HOURGLASSE',
                   'diamond': 'DIAMOND',
                   'oval': 'OVAL'}
 
+IMAGE_BASE_FOLDER = "C://Users/Dell/PycharmProjects/figure-it-out/Images"
 # Image Dictionary
-body_type_image_dict = {'hourglasse': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/hourglassecollage.jpg',
-                        'spoon': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/spoonfigure.jpg',
-                        'triangle': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/triangle.jpg',
-                        'inverted triangle': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/invertedtriangle.jpg',
-                        'rectangle': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/rectanglebody.jpg',
-                        'diamond': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/Diamondshape.jpg',
-                        'oval': 'C://Users/Dell/PycharmProjects/figure-it-out/Images/ovalcollage.jpg'
-                        }
+body_type_image_dict = {
+    'hourglasse': f'{IMAGE_BASE_FOLDER}/hourglassecollage.jpg',
+    'spoon': f'{IMAGE_BASE_FOLDER}/spoonfigure.jpg',
+    'triangle': f'{IMAGE_BASE_FOLDER}/triangle.jpg',
+    'inverted triangle': f'{IMAGE_BASE_FOLDER}/invertedtriangle.jpg',
+    'rectangle': f'{IMAGE_BASE_FOLDER}/rectanglebody.jpg',
+    'diamond': f'{IMAGE_BASE_FOLDER}/Diamondshape.jpg',
+    'oval': f'{IMAGE_BASE_FOLDER}/ovalcollage.jpg'
+}
 
 
 # Site URL Dictionary
@@ -59,4 +61,5 @@ body_type_desc_dict = {'hourglasse': 'Narrow v neck, Dark top, Jackets, Tailor s
                                'trousers and '
                                'jeans. Opt for high-waisted, pencil and A-line skirts. Choose imperial cut and '
                                'strapless dresses. '
-                               'Bring in under-bust belts.'}
+                               'Bring in under-bust belts.'
+                       }
