@@ -8,9 +8,9 @@ body_type_dict = {'ideal_figure':'IDEAL FIGURE',
                   'diamond': 'DIAMOND',
                   'oval': 'OVAL'}
 
-IMAGE_BASE_FOLDER = "../static/images"  # WEB
+# IMAGE_BASE_FOLDER = "../static/images"  # WEB
 
-# IMAGE_BASE_FOLDER = "C:\\Users\\Dell\\PycharmProjects\\figure-it-out\\static\\images"  # WINDOWS
+IMAGE_BASE_FOLDER = "C:\\Users\\Dell\\PycharmProjects\\figure-it-out\\static\\images"  # WINDOWS
 
 # Image Dictionary
 body_type_image_dict = {
