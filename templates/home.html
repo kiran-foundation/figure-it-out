@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div>
+    <table width="100%">
+        <tr>
+            <td><h6 align="left"> <b> <a href="/" > <font color = "#330019"> Home </font> </a> </b></h6></td>
+            <td><h2 align="center"> <b><i> <font color = "#330019"> Body Type Calculator </font> </i></b></h2> <br></td>
+            <td><h6 align="right"> <b> <a href="/about" > <font color = "#330019"> About </font> </a> </b></h6></td>
+        </tr>
+    </table>
+</div>
+    <style>
+        .myBody
+          {
+          background-color: #C18BA6;
+          }
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <style rel="stylesheet" type = "text/css" href= "{{ url_for('static',filename = 'css/style.css')}}"></style> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Figure_It_Out</title>
+</head>
+<body class = "myBody">
+<table>
+    <tr>
+        <td>
+            <div class = "col-md-8">
+                <!-- <h3 style="color:#330019">Body shape calculator determines your body type based on your measurements. </h3> -->
+                <img src = "..\static\images\fashion.jpg" alt = "Test Image" width="900" height="550">
+            </div>
+        </td>
+
+      <td width = "200" height="300"></td>
+
+      <td width = "800" height="400">
+              <!--<div class = "col-md-6">
+                <label><font color="#330019"> <h2> Enter Measurements: </h2></font></label> <br>
+              </div>-->
+            <div class = "col-md-8">
+              <div class = "card">
+                <div class = "card-body">
+
+                  <form class = "form" method = "post" action = "/submit">
+
+                    <label><font color="#330019"> Bust Size: </font></label>
+                        <input type = "number" class = "form-control" name = "bust" required min="10" max="99"> <br>
+
+                    <label><font color="#330019"> Waist Size: </font></label> <br>
+                        <input type = "number" class = "form-control" name = "waist" required min="10" max="99"> <br>
+
+                    <label> <font color="#330019"> Hip Size: </font></label> <br>
+                        <input type = "number" class = "form-control" name = "hip" required min="10" max="99"> <br>
+
+                    <label> <font color="#330019"> High Hip Size: </font></label> <br>
+                    <input type = "number" class = "form-control" name = "highhip" required min="10" max="99"> <br> <br>
+
+                    <input type = "submit" align="center" class = "btn btn-dark btn-block btn-lg" value = "Calculate">
+
+              </form>
+
+                </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+    </table>
+ </body>
+</html>

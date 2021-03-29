@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--                    font-family: Verdana, Helvetica, sans-serif;-->
+<div>
+    <table width="100%">
+        <tr>
+            <td><h6 align="left"> <b> <a href="/" > <font color = "#330019"> Home </font> </a> </b></h6></td>
+            <td><h2 align="center"> <b><i> <font color = "#330019"> Body Type Calculator </font> </i></b></h2> <br></td>
+            <td><h6 align="right"> <b> <a href="/about" > <font color = "#330019"> About </font> </a> </b></h6></td>
+        </tr>
+    </table>
+</div>
+    <style>
+        #bodytype {
+
+                    font-size: 14px;
+                    }
+
+        #bodytype td, #customers th
+                    {
+                     border: 1px solid #ddd;
+                     padding: 4px;
+                    }
+        #bodytype tr:nth-child(even){background-color: #f2f2f2;}
+        .myBody
+          {
+          background-color: #C18BA6;
+          }
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <style rel="stylesheet" type = "text/css" href= "{{ url_for('static',filename = 'css/style.css')}}"></style> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Figure_It_Out</title>
+</head>
+<body class = "myBody">
+
+<table id = "bodytype" align = "center" width = "800" border = "1px" cellspacing="2" bgcolor="#dddddd">
+
+  <tr>
+    <td ><b> Body Type: </b></td>
+    <td><b>{{ value[0] }}</b></td>
+
+  </tr>
+
+  <tr>
+    <td><b> Description: </b></td>
+    <td><b>{{ value[2] }}</b></td>
+
+  </tr>
+  <tr>
+    <td><b> Site URL: </b></td>
+    <td><a href = "{{ value[3] }}" target="_blank"> Click Here For More Info </a> </td>
+
+  </tr>
+  <tr>
+    <td><b> Image: </b></td>
+    <td> <img src = "{{ value[1] }}" align = "center" width = "800" height = "500"> </td>
+
+  </tr>
+</table>
+</body>
+</html>
+
