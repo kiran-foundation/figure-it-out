@@ -25,17 +25,22 @@ def main():
 # validate() function validates the input
 def take_input():
     # Input Bust Size, input_val[0]
+
     bust_val = input("Enter Bust Measurments in \"inches\": ")
 
     # Validating bust size
+
     while bust_val == '' or bust_val.isspace() or bust_val.isalpha() or float(bust_val) <= 9 or float(bust_val) >= 100 :
         bust_val = input("Bust size is invalid! Enter numeric value in inch and Please enter your value in range of (9 - 99 )")
+
+
+
 
     # Input Waist Size #
     waist_val = input("Enter Waist Measurments  in \"inches\": ")
 
     # Validating waist size
-    while waist_val == '' or waist_val.isspace() or waist_val.isalpha() or float(waist_val) <= 9 or float(waist_val) >= 100:
+    while waist_val == '' or waist_val.isspace() or waist_val.isalpha()or float(waist_val) <= 9 or float(waist_val) >= 100:
         bust_val = input("waist size is invalid! Enter numeric value in inch and Please enter your value in range of (9 - 99 )")
 
     # Input Hip Size #
@@ -46,10 +51,11 @@ def take_input():
         bust_val = input("hip size is invalid! Enter numeric value in inch and Please enter your value in range of (9 - 99 )")
 
     # Input High Hip Size
+
     highhip_val = input("Enter High hip Measurments in \"inches\": ")
 
     # Validating high hip size
-    while highhip_val == '' or highhip_val.isspace() or highhip_val.isalpha() or float(highhip_val) <= 9 or float(highhip_val) >= 100:
+    while highhip_val == '' or highhip_val.isspace() or highhip_val.isalpha()or float(highhip_val) <= 9 or float(highhip_val) >= 100:
         bust_val = input("high hip size is invalid! Enter numeric value in inch and Please enter your value in range of (9 - 99 )")
 
     return bust_val, waist_val, hip_val, highhip_val
@@ -72,4 +78,3 @@ def repeat():
 
 
 main()
-
