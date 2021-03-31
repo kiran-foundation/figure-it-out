@@ -10,7 +10,7 @@ def validate():
 
     # Validating bust size
     while bust_val == '' or bust_val.isspace():
-        bust_val = input("Bust size is invalid! Enter numeric value in inch: ")
+        bust_val = input("Bust size is invalid.html! Enter numeric value in inch: ")
 
     # Input Waist Size
     global waist_val
@@ -18,7 +18,7 @@ def validate():
 
     # Validating waist size
     while waist_val == '' or waist_val.isspace():
-        waist_val = input("Waist size is invalid! Enter numeric value in inch: ")
+        waist_val = input("Waist size is invalid.html! Enter numeric value in inch: ")
 
     # Input Hip Size
     global hip_val
@@ -26,7 +26,7 @@ def validate():
 
     # Validating hip size
     while hip_val == '' or hip_val.isspace():
-        hip_val = input("Hip size is invalid! Enter numeric value in inch: ")
+        hip_val = input("Hip size is invalid.html! Enter numeric value in inch: ")
 
     # Input High Hip Size
     global highhip_val
@@ -34,7 +34,7 @@ def validate():
 
     # Validating high hip size
     while highhip_val == '' or highhip_val.isspace():
-        highhip_val = input("High Hip size is invalid! Enter numeric value in inch: ")
+        highhip_val = input("High Hip size is invalid.html! Enter numeric value in inch: ")
 
 
 # convert_str_float() converts string into float
