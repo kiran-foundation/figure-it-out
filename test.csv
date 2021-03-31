@@ -1,8 +1,8 @@
 test cases, bust_val, waist_val, hip_val, highhip_val,body_type
 test1,32,24,24,30,Inverted Triangle
 test2,30,32,26,29,Oval
-test3, 32.5,30,34,32,Invalid measurement
-test4, 32,30,34,31,Invalid measurement
+test3, 32.5,30,34,32,Invalid measurement(rectangle)
+test4, 32,30,34,31,Invalid measurement(rectangle)
 test5, 32,38,36,30,Oval
 test6, 31.5,37,36.5,30,Oval
 test7,31,36,35,29.5,Oval
@@ -10,25 +10,25 @@ test8,30.5,35.5,34,29,Oval
 test9,30,35,33.5,28.5,Oval
 test10,29.5,34.5,33,28,Oval
 test11,29,35,32,29,Diamond
-test12,30,34,34,27,Invalid Measurements
-test13,29,33,33.5,28,Invalid Measurements
-test14,30,33,34,29,Invalid Measurement
-test15, 28,31,33,27,Invalid Measurement
+test12,30,34,34,27,Invalid Measurements{oval]
+test13,29,33,33.5,28,Invalid Measurements{triangle}
+test14,30,33,34,29,Invalid Measurement(triangle)
+test15, 28,31,33,27,Invalid Measurement{ triangle}
 test16,28.5,34.5,31.5,28.5,Diamond
-test17,29,32,33,28,Invalid measurements
+test17,29,32,33,28,Invalid measurements(triangle)
 test18,32,24,34,29,Hourglass
 teat19,31,25,33,29,Hourglass
-test20,30,24,31,28,Invalid measurement
+test20,30,24,31,28,Invalid measurement(hourglasse)
 test21,32,26,38,32,Triangle
 test22,33,25,38,30,Triangle
 test23,34,23.5,32.5,28,Hourglass
-test24,30,32,36,33,Invalid measurements
-test25,35,30,34,30,Invalid measurements
-test26,38,34,44,39,Spoon
+test24,30,32,36,33,Invalid measurements{spoon}
+test25,35,30,34,30,Invalid measurements{hourglasse}
+test26,38,34,44,39,Spoon(triangle)
 test27,36,33,41,38,Spoon
 test28,38,33,36,32,Inverted Triangle
-test29,39,32,37,31,Inverted Triangle
-test30,33,27,34.5,29,Invalid Measurement
+test29,39,32,37,31,Inverted Triangle(hourglasse)
+test30,33,27,34.5,29,Invalid Measurement(hourglasse)
 test31,34,27,36,29,Hourglass
 test32,34,26,35.5,28,Hourglass
 test33,34,27.5,35.5,29,Ideal Figure
