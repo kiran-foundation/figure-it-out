@@ -8,7 +8,7 @@ body_type_dict = {'ideal_figure':'IDEAL FIGURE',
                   'diamond': 'DIAMOND',
                   'oval': 'OVAL'}
 
-IMAGE_BASE_FOLDER = "C://Users/HP/PycharmProjects/figure-it-out/Images"
+IMAGE_BASE_FOLDER = "/Users/shoonye/PycharmProjects/figure-it-out/Images/"
 # Image Dictionary
 body_type_image_dict = {
     'ideal_figure':f'{IMAGE_BASE_FOLDER}/ideal.jpg',
