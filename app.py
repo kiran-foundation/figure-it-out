@@ -28,7 +28,7 @@ def submit():
     if type(bodytype) == tuple:
         return render_template('submit.html', value=bodytype)
     else:
-        return "Invalid Measurements!! Try Again. "
+        return render_template('invalid.html')
 
 
 @app.route('/about')
