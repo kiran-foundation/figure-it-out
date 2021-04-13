@@ -11,7 +11,7 @@ def find_body_type(bust, waist, hip, high_hip):
     if hip_bust == 1.5 and hip_waist == 8 or hip_bust == 1.5 and hip_waist == 7:
         return body_type_dict['ideal_figure'], body_type_image_dict['ideal_figure'], body_type_desc_dict[
             'ideal_figure'], body_type_URL_dict['ideal_figure']
-    if bust_hip <= 2 and bust_hip > 0 and bust_waist > 5 or hip_bust <= 2 and hip_bust > 0 and hip_waist > 5 :
+    if bust_hip <= 2 and bust_hip > 0 and bust_waist >= 5 or hip_bust <= 2 and hip_bust > 0 and hip_waist >= 5 :
         return body_type_dict['hourglasse'], body_type_image_dict['hourglasse'], body_type_desc_dict['hourglasse'], \
                body_type_URL_dict['hourglasse']
     if hip_bust >= 3 and hip_waist >= 4  and hip - high_hip <= 4 :

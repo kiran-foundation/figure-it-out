@@ -37,6 +37,12 @@ test35,32,31,37.5,35,Spoon
 test36,32,30,37.5,35, Spoon
 test37,35,36,38,34,Rectangle
 test38,33,37,35,30,Diamond
+test39,32,35.5,36,37.5,Invalid
+test40,32,30.5,35,37,Spoon
+test41,34,38,38,36.6,Oval
+test42,31,33,34,36,Rectangle
+test43,
+
 
 
 
