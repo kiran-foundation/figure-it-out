@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990346bf-7f20-422a-a25e-b50dc40e3207" name="Default Changelist" comment="Git Ignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/figure-it-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/figure-it-out.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fio/figure_it_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/fio/figure_it_out.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fio/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/fio/resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/figure-it-out 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/figure-it-out1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/figure-it-out3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/figure-it-out4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/figure-it-out5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/invalid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/invalid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/submit.html" afterDir="false" />
-    </list>
+    <list default="true" id="990346bf-7f20-422a-a25e-b50dc40e3207" name="Default Changelist" comment="Added code to display multiple images and UI changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618528542155</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added code to display multiple images and UI changes">
+      <created>1618872448003</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618872448003</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -230,6 +221,7 @@
     <MESSAGE value="index file" />
     <MESSAGE value="images update" />
     <MESSAGE value="Git Ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git Ignore" />
+    <MESSAGE value="Added code to display multiple images and UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to display multiple images and UI changes" />
   </component>
 </project>
