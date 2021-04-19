@@ -1,68 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--                    font-family: Verdana, Helvetica, sans-serif;-->
 <div>
-    <table width="100%">
+    <table width = "100%">
         <tr>
-            <td><h6 align="left"> <b> <a href="/" > <font color = "#330019"> Home </font> </a> </b></h6></td>
-            <td><h1 align="center"> <b><i> <font color = "#330019"> Body Type Calculator </font> </i></b></h1> <br></td>
-            <td><h6 align="right"> <b> <a href="/about" > <font color = "#330019"> About </font> </a> </b></h6></td>
+            <th width = "5%" valign="top"> <a href="/"><img src="/static/images/logo_fio.png" height="40"> </a></th>
+            <th width = "90%" valign="top"> <h2 align="center"><b> <font color = "#330019" style="font-family:Serif;"> Body Type Calculator </font> </b></h2></th>
+            <th width = "5%" valign="top"> <h6 align="right"><b> <a href="/about" > <font color = "#330019"> About </font> </a></b></h6></th>
         </tr>
     </table>
 </div>
     <style>
-        #bodytype {
-
-                    font-size: 14px;
-                    }
-
-        #bodytype td, #customers th
-                    {
-                     border: 1px solid #ddd;
-                     padding: 4px;
-                    }
-        #bodytype tr:nth-child(even){background-color: #f2f2f2;}
         .myBody
-          {
-          background-color: #e8e1de;
-          }
+            {
+                background-color: #ffecd9;
+                font-family:verdana
+                font-size: 40px;
+            }
+         .content
+            {
+                max-width: 1000px;
+                margin: auto;
+                margin-top: 40px;
+            }
 
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <style rel="stylesheet" type = "text/css" href= "{{ url_for('static',filename = 'css/style.css')}}"></style> -->
     <!-- Bootstrap CSS -->
-    <link href="//cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>Figure_It_Out</title>
 </head>
-<body class = "myBody">
+<body class = "myBody" >
+    <div class="content">
+        <p>
+            <br>
+            Bust : <b> {{bust}} </b>   Waist : <b> {{waist}} </b>
+            Hip : <b> {{hip}} </b>   High Hip : <b> {{highhip}}</b> <br> <br>
 
-<table id = "bodytype" align = "center" width = "800" border = "1px" cellspacing="2" bgcolor="#dddddd">
+            Your Body Type is <b>{{ value[0] }}</b> <br><br>
 
-  <tr>
-    <td ><b> Body Type: </b></td>
-    <td><b>{{ value[0] }}</b></td>
+            Dressing style that suits you are
+            <b>{{ value[2] }}</b> <br><br>
 
-  </tr>
-
-  <tr>
-    <td><b> Description: </b></td>
-    <td><b>{{ value[2] }}</b></td>
-
-  </tr>
-  <tr>
-    <td><b> Site URL: </b></td>
-    <td><a href = "{{ value[3] }}" target="_blank"> Click Here For More Info </a> </td>
-
-  </tr>
-  <tr>
-    <td><b> Image: </b></td>
-    <td> <img src = "{{ value[1] }}" align = "center" width = "600" height = "500"> </td>
-
-  </tr>
-</table>
+            For more information, <a href = "{{ value[3] }}" target="_blank"> <b>Click Here </b></a> <br><br>
+            Sample Dressing Styles  <br> <br>
+            <img src = "{{ images[0] }}" align = "center" width = "700" height = "500"> <br><br>
+            <img src = "{{ images[1] }}" align = "center" width = "700" height = "500"> <br><br>
+            <img src = "{{ images[2] }}" align = "center" width = "700" height = "500"> <br><br>
+            <img src = "{{ images[3] }}" align = "center" width = "700" height = "500"> <br><br>
+            <img src = "{{ images[4] }}" align = "center" width = "700" height = "500"> <br><br>
+        </p>
+    </div>
 </body>
 </html>
 

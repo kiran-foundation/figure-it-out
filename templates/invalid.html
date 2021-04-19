@@ -2,19 +2,27 @@
 <html lang="en">
 <head>
 <div>
-    <table width="100%">
+    <table width = "100%">
         <tr>
-            <td><h6 align="left"> <b> <a href="/" > <font color = "#330019"> Home </font> </a> </b></h6></td>
-            <td><h2 align="center"> <b><i> <font color = "#330019"> Body Type Calculator </font> </i></b></h2> <br></td>
-            <td><h6 align="right"> <b> <a href="/about" > <font color = "#330019"> About </font> </a> </b></h6></td>
+            <th width = "5%" valign="top"> <a href="/"><img src="/static/images/logo_fio.png" height="40"> </a></th>
+            <th width = "90%" valign="top"> <h2 align="center"><b> <font color = "#330019" style="font-family:Serif;"> Body Type Calculator </font></b></h2></th>
+            <th width = "5%" valign="top"> <h6 align="right"><b> <a href="/about" > <font color = "#330019"> About </font> </a></b></h6></th>
         </tr>
     </table>
 </div>
     <style>
         .myBody
-          {
-          background-color: #C18BA6;
-          }
+            {
+                background-color: #ffecd9;
+                font-family:verdana
+                font-size: 40px;
+            }
+        .content
+            {
+                max-width: 1000px;
+                margin: auto;
+                margin-top: 40px;
+             }
 
     </style>
     <meta charset="utf-8">
@@ -22,12 +30,12 @@
     <!-- <style rel="stylesheet" type = "text/css" href= "{{ url_for('static',filename = 'css/style.css')}}"></style> -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
     <title>Figure_It_Out</title>
+
 </head>
-<body class = "myBody">
+<body class = "myBody" >
     <br> <br>
-    <h6> <b>  <font color = "#330019"> Invalid Measurements! Try Again !! </font>  </b></h6>
+    <h6> <b>  <font color = "#330019"> Invalid Measurements!! <a href="/"> <font color = "#330019"> Try Again </font></a>   </font>  </b></h6>
 
 </body>
 </html>

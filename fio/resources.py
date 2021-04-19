@@ -8,9 +8,9 @@ body_type_dict = {'ideal_figure':'IDEAL FIGURE',
                   'diamond': 'DIAMOND',
                   'oval': 'OVAL'}
 
-#IMAGE_BASE_FOLDER = "/Users/shoonye/PycharmProjects/figure-it-out/Images/"
 # Image Dictionary
-IMAGE_BASE_FOLDER = "/static/images"
+# IMAGE_BASE_FOLDER = "/Users/shoonye/PycharmProjects/figure-it-out/Images/"  # For WINDOWS
+IMAGE_BASE_FOLDER = "/static/images"  # For WEB
 body_type_image_dict = {
     'ideal_figure':f'{IMAGE_BASE_FOLDER}/ideal.jpg',
     'hourglasse': f'{IMAGE_BASE_FOLDER}/hourglassecollage.jpg',
@@ -68,3 +68,68 @@ body_type_desc_dict = {'ideal_figure': 'Hey dear your the lucky one to excess al
                                'strapless dresses. '
                                'Bring in under-bust belts.'
                        }
+
+IMAGE_FOLDER_MAIN = "/static/images"
+
+# List for IDEAL FIGURE BodyType Images
+ideal_image_list = [f'{IMAGE_FOLDER_MAIN}/ideal/ideal_img1.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/ideal/ideal_img2.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/ideal/ideal_img3.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/ideal/ideal_img4.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/ideal/ideal_img5.jpg']
+
+
+# List for HOURGLASS BodyType Images
+hourglass_image_list = [f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg']
+
+
+# List for Spoon BodyType Images
+spoon_image_list = [f'{IMAGE_FOLDER_MAIN}/spoon/spoon_img1.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/spoon/spoon_img2.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/spoon/spoon_img3.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/spoon/spoon_img4.jpg',
+                    f'{IMAGE_FOLDER_MAIN}/spoon/spoon_img5.jpg']
+
+
+# List for triangle BodyType Images
+triangle_image_list = [f'{IMAGE_FOLDER_MAIN}/triangle/triangle_img1.jpg',
+                       f'{IMAGE_FOLDER_MAIN}/triangle/triangle_img2.jpg',
+                       f'{IMAGE_FOLDER_MAIN}/triangle/triangle_img3.jpg',
+                       f'{IMAGE_FOLDER_MAIN}/triangle/triangle_img4.jpg',
+                       f'{IMAGE_FOLDER_MAIN}/triangle/triangle_img5.jpg']
+
+
+# List for INVERTED TRIANGLE BodyType Images
+inverted_triangle_image_list = [f'{IMAGE_FOLDER_MAIN}/inverted_triangle/inverted_triangle_img1.jpg',
+                                f'{IMAGE_FOLDER_MAIN}/inverted_triangle/inverted_triangle_img2.jpg',
+                                f'{IMAGE_FOLDER_MAIN}/inverted_triangle/inverted_triangle_img3.jpg',
+                                f'{IMAGE_FOLDER_MAIN}/inverted_triangle/inverted_triangle_img4.jpg',
+                                f'{IMAGE_FOLDER_MAIN}/inverted_triangle/inverted_triangle_img5.jpg']
+
+
+# List for Rectangle BodyType Images
+rectangle_image_list = [f'{IMAGE_FOLDER_MAIN}/rectangle/rectangle_img1.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/rectangle/rectangle_img2.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/rectangle/rectangle_img3.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/rectangle/rectangle_img4.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/rectangle/rectangle_img5.jpg']
+
+
+# List for DIAMOND BodyType Images
+diamond_image_list = [f'{IMAGE_FOLDER_MAIN}/diamond/diamond_img1.jpg',
+                      f'{IMAGE_FOLDER_MAIN}/diamond/diamond_img2.jpg',
+                      f'{IMAGE_FOLDER_MAIN}/diamond/diamond_img3.jpg',
+                      f'{IMAGE_FOLDER_MAIN}/diamond/diamond_img4.jpg',
+                      f'{IMAGE_FOLDER_MAIN}/diamond/diamond_img5.jpg']
+
+
+# List for OVAL BodyType Images
+oval_image_list = [f'{IMAGE_FOLDER_MAIN}/oval/oval_img1.jpg',
+                   f'{IMAGE_FOLDER_MAIN}/oval/oval_img2.jpg',
+                   f'{IMAGE_FOLDER_MAIN}/oval/oval_img3.jpg',
+                   f'{IMAGE_FOLDER_MAIN}/oval/oval_img4.jpg',
+                   f'{IMAGE_FOLDER_MAIN}/oval/oval_img5.jpg']

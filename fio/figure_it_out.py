@@ -34,3 +34,26 @@ def find_body_type(bust, waist, hip, high_hip):
             'oval']
     else:
         return "Invalid Measurements"
+
+
+#  Function returns images list based on body type
+def body_type_images(bodytype):
+    body_type_images_list = []
+    if bodytype == 'IDEAL FIGURE':
+        body_type_images_list = list(ideal_image_list)  # Copies images from one list to other list
+    if bodytype == 'HOURGLASSE':
+        body_type_images_list = list(hourglass_image_list)
+    if bodytype == 'SPOON':
+        body_type_images_list = list(spoon_image_list)
+    if bodytype == 'TRIANGLE':
+        body_type_images_list = list(triangle_image_list)
+    if bodytype == 'INVERTED TRIANGLE':
+        body_type_images_list = list(inverted_triangle_image_list)
+    if bodytype == 'RECTANGLE':
+        body_type_images_list = list(rectangle_image_list)
+    if bodytype == 'DIAMOND':
+        body_type_images_list = list(diamond_image_list)
+    if bodytype == 'OVAL':
+        body_type_images_list = list(oval_image_list)
+
+    return body_type_images_list
