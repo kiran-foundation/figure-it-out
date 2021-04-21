@@ -80,11 +80,11 @@ ideal_image_list = [f'{IMAGE_FOLDER_MAIN}/ideal/ideal_img1.jpg',
 
 
 # List for HOURGLASS BodyType Images
-hourglass_image_list = [f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
-                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
-                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
-                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg',
-                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img6.jpg']
+hourglass_image_list = [f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img1.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img2.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img3.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img4.jpg',
+                        f'{IMAGE_FOLDER_MAIN}/hourglass/hourglass_img5.jpg']
 
 
 # List for Spoon BodyType Images
