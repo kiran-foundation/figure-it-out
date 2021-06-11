@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990346bf-7f20-422a-a25e-b50dc40e3207" name="Default Changelist" comment="Index Page">
+      <change beforePath="$PROJECT_DIR$/.idea/figure-it-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/figure-it-out.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/submit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +54,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/hourglass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/Images" />
       <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\hourglass" />
       <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\ideal" />
       <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\triangle" />
-      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images" />
-      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\rectangle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\spoon" />
