@@ -8,9 +8,10 @@ body_type_dict = {'ideal_figure':'IDEAL FIGURE',
                   'diamond': 'DIAMOND',
                   'oval': 'OVAL'}
 
-# Image Dictionary
-# IMAGE_BASE_FOLDER = "/Users/shoonye/PycharmProjects/figure-it-out/Images/"  # For WINDOWS
-IMAGE_BASE_FOLDER = "/static/images"  # For WEB
+# To display images for windows application
+
+IMAGE_BASE_FOLDER = "/Users/Dell/PycharmProjects/figure-it-out/Images"  # For WINDOWS
+
 body_type_image_dict = {
     'ideal_figure':f'{IMAGE_BASE_FOLDER}/ideal.jpg',
     'hourglasse': f'{IMAGE_BASE_FOLDER}/hourglassecollage.jpg',
@@ -68,6 +69,8 @@ body_type_desc_dict = {'ideal_figure': 'Hey dear your the lucky one to excess al
                                'strapless dresses. '
                                'Bring in under-bust belts.'
                        }
+
+# Multiple images for web application
 
 IMAGE_FOLDER_MAIN = "/static/images"
 

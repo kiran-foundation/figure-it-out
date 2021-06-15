@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990346bf-7f20-422a-a25e-b50dc40e3207" name="Default Changelist" comment="Index Page">
+    <list default="true" id="990346bf-7f20-422a-a25e-b50dc40e3207" name="Default Changelist" comment="Minor UI changes in Index and Submit HTML pages">
       <change beforePath="$PROJECT_DIR$/.idea/figure-it-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/figure-it-out.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fio/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/fio/resources.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +60,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images" />
+      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\fio_presentation" />
+      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out" />
+      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\Images" />
       <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/Images" />
-      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\hourglass" />
-      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\ideal" />
-      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\triangle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\fio_presentation" />
+      <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\templates" />
       <recent name="C:\Users\Dell\PycharmProjects\figure-it-out\static\images\spoon" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/templates/images" />
-      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
